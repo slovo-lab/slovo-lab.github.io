@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Measure 0.1.0: first results, one real finding, and two of us in one kitchen"
-date: 2026-11-24 14:50:00 +0100
+date: 2026-11-24 15:00:00 +0100
 lang: en
 permalink: /2026/11/24/first-results/
 ---
