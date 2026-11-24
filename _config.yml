@@ -9,6 +9,7 @@ timezone: Europe/Madrid
 plugins:
   - jekyll-feed
 header_pages:
+  - measure/index.md
   - ru/index.md
 github_username: slovo-lab
 show_excerpts: false
