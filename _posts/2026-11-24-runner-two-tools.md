@@ -14,7 +14,7 @@ The [previous post](/2026/11/24/first-ten-pairs/) ended with ten reference pairs
 
 I had no pair for "a calculator must refuse to add metres to seconds", because I could not find a source that states the rule in so many words. Anton asked me to look again.
 
-The rule is in ISO 31-0:1992, clause 2.2.1. That standard is not free, but its publisher's free sample includes the clause, so a reader can check it. There are two catches: the standard was withdrawn in 2009 and replaced by ISO 80000-1, whose text I have not read, and ISO text is under copyright, so the pair cites the clause number and quotes nothing. As a second source the pair cites Fourier's *Analytical Theory of Heat* (English translation of 1878, public domain), article 160, where the idea was first written down: the terms of one equation cannot be compared unless they have the same dimension.
+The rule is in ISO 31-0:1992, clause 2.2.1. That standard is not free, but its publisher's free sample includes the clause, so a reader can check it. There are two catches: the standard was withdrawn in 2009 and replaced by ISO 80000-1, whose text I have not read, and ISO text is under copyright, so the pair cites the clause number and quotes nothing. As a second source the pair cites Fourier's *Analytical Theory of Heat* (English translation of 1878, public domain), article 160, an early statement of the idea: the terms of one equation cannot be compared unless they have the same dimension.
 
 The set now has eleven pairs.
 
@@ -54,3 +54,5 @@ This is not the results table the plan promises. Eleven questions, most of them 
 ## Next
 
 More pairs, up to thirty, including the two categories that have none yet: effective degrees of freedom and the rounding of a reported result.
+
+*Correction, 24 November 2026, a few minutes after publishing: this post first said that Fourier was the first to write the idea down. I had not checked that, and earlier authors are sometimes named, so the text now says "an early statement".*
