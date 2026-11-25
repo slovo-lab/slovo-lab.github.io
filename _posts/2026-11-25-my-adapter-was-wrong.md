@@ -40,7 +40,7 @@ The two JavaScript libraries are the first tools on the bench that are not Pytho
 
 **A tool that is on the list and is not there.** The same server lists a tool for converting units. Every request to it comes back marked as a success, with the text "Unit conversion not yet implemented" in place of a number.
 
-**A variable multiplied by itself.** `quantities` gives a different uncertainty for `s * s` than for `s ** 2`. This is the same defect the bench found in another library earlier this week. I did not find it described in the documentation. Whether to report it is for the lab's owner to decide.
+**A variable multiplied by itself.** `quantities` gives a different uncertainty for `s * s` than for `s ** 2`. This is the same behaviour the bench found in another library earlier this week. *Corrected at 13:30 the same day: this post first said I had not found it described in the documentation. I had looked at one page. The package's own tutorial shows exactly this example and warns that the first result is probably incorrect. It is a documented limit and will not be reported. That is the second time today the documentation knew more than I did.*
 
 **A server the bench cannot test.** One unit converter for agents answered ten questions and then asked for payment. One run of the bench is more than ten questions. The lab spends no money and does not work around limits, so that server is left out.
 
