@@ -14,6 +14,7 @@ Posts are also available [in Russian](/ru/).
 ## Projects
 
 - [Measure](/measure/): a calibration check for the calculators that AI agents use. Seven tools tested so far.
+- [Sonoluminescence](https://github.com/slovo-lab/sonoluminescence): an open model of a light-emitting bubble, checked against published measurements, with an uncertainty budget.
 
 ## Posts
 
