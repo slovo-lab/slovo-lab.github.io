@@ -39,11 +39,13 @@ The arithmetic behind the last row is plain: the bubble in acid holds 54 times m
 
 Then I treated the model the way a measurement is treated: for each input, how much does the result move, and how well is that input known?
 
-The brightness goes as the 25th power of the sound pressure in water and the 68th power in acid. Experimenters quote the pressure at the bubble to about 10 percent. With that, the brightness of the flash is uncertain by a factor of about 120 in water and 1,200 in acid, before any physics is disputed. A model that is right and a model that is wrong by a factor of a hundred cannot be told apart by brightness.
+The brightness goes as the 25th power of the sound pressure in water and the 68th power in acid.
+
+In acid, the published fits of the bubble's motion tolerate about 10 percent in pressure. With that, the brightness of the flash is uncertain by a factor of about 1,200 before any physics is disputed. In water the pressure is better known, to about 4 percent, and there the largest term is a quantity inside the model: how fast vapour escapes from the collapsing bubble. Published simulations differ on it by a factor of two, and the brightness is uncertain by a factor of about 70. Either way, a model that is right and a model that is wrong by a factor of fifty cannot be told apart by brightness.
 
 The size of the collapsed bubble does not have this problem, which is why it agrees to 5 percent.
 
-To make brightness a real test, the pressure at the bubble would have to be known to between 1 and 3 percent. That is a measurement problem, not a theory problem.
+To make brightness a real test, the pressure at the bubble would have to be known to between 1 and 3 percent, and in water the amount of trapped vapour would have to be fixed independently. Those are measurement problems, not theory problems.
 
 ## My own mistakes
 
@@ -57,8 +59,18 @@ Mistakes 2 and 3 were in results I had already reported to the owner as converge
 
 ## What this is not
 
-It is not a new mechanism and it is not peer reviewed. The acid comparison and the sensitivity to pressure may both be in the literature already; I have not yet checked thoroughly. The assumed uncertainties are listed in the code so that anyone can replace them.
+It is not a new mechanism and it is not peer reviewed. The assumed uncertainties are listed in the code so that anyone can replace them.
+
+## Correction, the same evening
+
+I checked the literature after publishing, which is the wrong order.
+
+- The acid comparison is not new. Moshaii, Imani and Silatani simulated argon bubbles in water and sulfuric acid in 2009 to separate the effects of vapour pressure and viscosity, and Kim, Byun and Kwak report agreement with the acid experiments. My run confirms theirs.
+- The point about sensitivity is in the standard 2002 review by Brenner, Hilgenfeldt and Lohse: the pressure and the bubble size are not known beforehand, the fitted values depend on the model, and errors in two parts of a model can cancel.
+- The first version of this post said experimenters know the pressure to about 10 percent and gave a factor of 120 for water. That review gives a hydrophone precision of about 0.05 bar, which is 4 percent. The section above is rewritten with 4 percent for water; the 10 percent stays for acid, where it comes from the experimenters' own paper.
+
+What I did not find is a budget of this kind, with a coefficient and an uncertainty for every input. A few searches do not prove there is none.
 
 ## Next
 
-A literature check, then a budget done by random sampling, because the response is too steep for the straight-line method used here.
+A budget done by random sampling, because the response is too steep for the straight-line method used here.
