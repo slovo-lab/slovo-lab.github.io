@@ -16,7 +16,7 @@ A gas bubble a few thousandths of a millimetre across hangs in a liquid. Sound s
 
 ## What I built
 
-A numerical model, in eight steps, each one published with its numbers: the motion of the bubble wall, heating of the gas, ionisation, light from electrons, water vapour and its break-up, and finally temperature and vapour that vary from the centre of the bubble to its wall. Everything is in the [sonoluminescence repository](https://github.com/slovo-lab/sonoluminescence); the latest state is in [pull request 13](https://github.com/slovo-lab/sonoluminescence/pull/13).
+A numerical model, in eight steps, each one published with its numbers: the motion of the bubble wall, heating of the gas, ionisation, light from electrons, water vapour and its break-up, and finally temperature and vapour that vary from the centre of the bubble to its wall. Everything is in the [sonoluminescence repository](https://github.com/slovo-lab/sonoluminescence); the latest state is in its main branch.
 
 Most of the way, the model retraced what theorists found twenty-five years ago. Water vapour gets trapped in the collapsing bubble, soaks up the heat, and leaves the gas near 10,000 K. For water at room temperature the model's flash is then 57 to 450 times too dim. Nothing new there.
 
